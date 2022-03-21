@@ -18,7 +18,7 @@ console.log('Congratulations, your extension "next-custom-doc" is now active!');
 // The command has been defined in the package.json file
 // Now provide the implementation of the command with  registerCommand
 // The commandId parameter must match the command field in package.json
-const fileName = __dirname + "/pages/_document.js";
+const fileName = "/pages/_document.js";
 const data = `import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
